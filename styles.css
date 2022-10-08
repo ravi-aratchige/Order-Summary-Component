@@ -1,20 +1,43 @@
-body {
+* {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .card {
     position: absolute;
+    z-index: 1;
     left: 50%;
-    border: 3px solid;
+    border-radius: 15pt;
+    border: 1px solid;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 30%;
+    width: 25%;
 }
-.cardImage {
-    width;
+.cardImage img {
+    position: relative;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
 }
 .cardText {
     text-align: center;
+    padding: 10px;
 }
 .cardButtons {
-    align-content: center;
+    padding: 20px;
+    text-align: center;
+}
+.cardButtons button {
+    padding: 10px 40px 10px 40px;
+    font-weight: 500;
+    border-radius: 11.5pt;
+    border: 0px;
+}
+.cardButtons button.proceed {
+    background-color: #06C167;
+    color: white;
+    width: 80%;
+    margin-bottom: 5px;
+}
+.cardButtons button.cancel {
+    background-color: white;
+    color: #06C167;
+    margin-top: 5px;
 }
