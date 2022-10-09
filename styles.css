@@ -14,7 +14,7 @@ body {
     border: 0px solid;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 25%;
+    width: 380px;
 }
 .cardImage img {
     position: relative;
@@ -25,11 +25,26 @@ body {
     text-align: center;
     padding: 10px;
 }
+.cardPaymentPlan {
+    text-align: center;
+}
 .cardPaymentPlan ul {
+    display: flex;
+    align-items: center;
+    margin: 0px;
     list-style-type: none;
+    width: 100%;
 }
 .cardPaymentPlan li {
     float: left;
+    /* top: 50%;
+    transform: translateY(-50%);
+    vertical-align: auto; */
+    font-size: small;
+    padding: 12px;
+}
+.cardPaymentPlan img {
+    height: 60px;
 }
 .cardButtons {
     padding: 20px;
