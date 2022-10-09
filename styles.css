@@ -25,6 +25,12 @@ body {
     text-align: center;
     padding: 10px;
 }
+.cardPaymentPlan ul {
+    list-style-type: none;
+}
+.cardPaymentPlan li {
+    float: left;
+}
 .cardButtons {
     padding: 20px;
     text-align: center;
