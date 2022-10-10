@@ -5,6 +5,6 @@ This order summary follows the theme of Uber Eats, and was inspired by a challen
 This project can be accessed <a href="ravi-aratchige.github.io/order-summary-component">online</a> once it has been published on my Github Page.
 ## To-Do
 <ul>
-<li>Fix styling to match reference image</li>
-<li>Add background</li>
+<li>Properly align payment plan details</li>
+<li>Improve background</li>
 </ul>
