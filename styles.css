@@ -39,6 +39,7 @@ body {
 .cardPaymentPlan li {
     float: left;
     font-size: small;
+    text-align: left;
     padding: 12px;
 }
 .cardPaymentPlan li span {
@@ -56,6 +57,7 @@ body {
 }
 .planDetails li {
     text-align: left;
+
 }
 .cardButtons {
     padding: 20px;
