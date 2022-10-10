@@ -45,6 +45,9 @@ body {
 .cardPaymentPlan li span {
     color: grey;
 }
+.cardPaymentPlan li.planIcon {
+    height: 50px;
+}
 .cardPaymentPlan img {
     border-radius: 50%;
     height: 50px;
@@ -57,7 +60,6 @@ body {
 }
 .planDetails li {
     text-align: left;
-
 }
 .cardButtons {
     padding: 20px;
