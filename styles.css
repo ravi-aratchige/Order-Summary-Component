@@ -31,20 +31,31 @@ body {
 .cardPaymentPlan ul {
     display: flex;
     align-items: center;
-    margin: 0px;
+    padding: 0px;
+    margin: auto;
     list-style-type: none;
-    width: 100%;
+    width: 80%;
 }
 .cardPaymentPlan li {
     float: left;
-    /* top: 50%;
-    transform: translateY(-50%);
-    vertical-align: auto; */
     font-size: small;
     padding: 12px;
 }
+.cardPaymentPlan li span {
+    color: grey;
+}
 .cardPaymentPlan img {
-    height: 60px;
+    border-radius: 50%;
+    height: 50px;
+}
+.changePlan a {
+    text-decoration: none;
+    color: #06C167;
+    padding-left: 50px;
+    font-weight: 500;
+}
+.planDetails li {
+    text-align: left;
 }
 .cardButtons {
     padding: 20px;
